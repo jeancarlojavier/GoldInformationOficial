@@ -24,13 +24,14 @@ header{
 .buscador{
   width: 100%;
   height: 46px;
+  text-align: center;
 }
 
 .i_buscador{
   border: 1px solid black;
   padding: 0;
   height: 100%;
-  width: 100%;
+  width: 99%;
   margin: 0;
 }
 
