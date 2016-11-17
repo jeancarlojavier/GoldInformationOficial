@@ -42,21 +42,24 @@ header{
   padding: 17px 58.5px;
 }
 
+ul a{
+  text-decoration: none;
+}
+
 ul li{
   padding: 16px 0;
+  padding: 16px 0;
+  font-size: 16px;
+  color: rgba(0,0,0,0.87);
   -webkit-transition: background 0.75s;
 }
 
-ul li:hover{
+ul li:onblur{
   background-color: rgba(243,241,243,1);
 }
 
-ul li a{
-  padding: 16px 0;
-  margin-left: 33px;
-  font-size: 16px;
-  text-decoration: none;
-  color: rgba(0,0,0,0.87);
+ul li span{
+  margin-left: 15px;
 }
 
 .a_Gold{
@@ -133,12 +136,20 @@ footer{
     height: 56%;
   }
 
+  ul li span{
+    margin-left: 0;
+  }
+
   .c_menu{
     text-align: center;
   }
 
   .buscador{
     text-align: left;
+  }
+
+  .i_buscador{
+    width: 100%;
   }
 
   ul li a{
@@ -157,7 +168,7 @@ footer{
 
 @media screen and (max-width: 347px){
   .logonegro{
-    padding: 0;
+    padding: 20px 0;
   }
 }
 
